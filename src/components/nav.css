@@ -1,0 +1,130 @@
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #170550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-row{
+    padding: 0px 18px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.logo span{
+    color: #F86F03;
+}
+.my-ul{
+    display: flex;
+    margin-top: 13px;
+    transition: 0.3s;
+}
+.my-ul.active{
+    right: 0;
+}
+.my-ul a{
+    display: block;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0px 15px;
+    transition: 0.2S;
+}
+.my-ul a:hover{
+    color: #F86F03;
+    text-decoration: none;
+}
+.menu-ul{
+    display: flex;
+    align-items: center;
+}
+.hire-btn{
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #461959;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    transition: 0.2s;
+}
+.hire-btn:hover{
+    background-color: #F86F03;
+    color: #ffffff;
+}
+.my-ul .hire-btn{
+    display: none;
+}
+.gamburger-btn{
+    width: 45px;
+    height: 27px;
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    display: none;
+    margin-left: 15px;
+    overflow: hidden;
+}
+.gamburger-btn:focus{
+    outline: none;
+}
+.gamburger-btn .line{
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+.gamburger-btn.active .line:nth-child(3){
+    opacity: 0%;
+    margin-bottom: -22px;
+}
+.gamburger-btn.active .line:nth-child(2){
+    transform: rotate(45deg) translateY(-8px) translateX(-7.5px);
+    background-color: red;
+}
+.gamburger-btn.active .line:nth-child(1){
+    transform: rotate(-45deg) translateY(8px) translateX(-7.5px);
+    background-color: red;
+}
+
+@media (max-width: 992px) {
+    .my-ul{
+        /*display: none;*/
+        width: 100%;
+        height: 375px;
+        position: fixed;
+        margin-top: 0px;
+        right: -100%;
+        top: 80px;
+        background-color: #170550;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+    }
+    .my-ul a{
+        margin: 15px 0px;
+    }
+    .gamburger-btn{
+        display: flex;
+    }
+}
+
+@media (max-width: 574px) {
+    .my-ul .hire-btn{
+        margin-top: 10px;
+        display: inline-block;
+    }
+    .menu-ul .hire-btn{
+        display: none;
+    }
+}
