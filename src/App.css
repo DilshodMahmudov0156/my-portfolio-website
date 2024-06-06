@@ -10,6 +10,9 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+.orange{
+  color: #F86F03;
+}
 .bg-my-dark{
   background-color: #170550;
 }
