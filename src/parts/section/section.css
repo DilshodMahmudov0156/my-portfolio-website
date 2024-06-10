@@ -1,12 +1,15 @@
+.about-me-part{
+    padding: 45px 0px 55px 0px;
+}
 .section-heading{
     text-align: center;
-    font-size: 45px;
+    font-size: 37px;
     font-weight: 600;
     color: #ffffff;
 }
 .my-photo{
     border-radius: 15px;
-    margin: 30px 0px;
+    margin: 25px 0px 30px 0px;
 }
 .my-heading{
     color: #ffffff;
@@ -36,3 +39,10 @@
     background-color: #F86F03;
     color: #ffffff;
 }
+.ability-part{
+    padding: 45px 0px;
+}
+.check-icon{
+    font-size: 20px;
+}
+/*@media (max-width: 992px){}*/

@@ -4,9 +4,9 @@ import "./header.css";
 
 function Header() {
     return (
-        <header>
+        <header id="home">
             <div className="container">
-                <div className="row align-items-center">
+                <div className="row align-items-center justify-content-center">
                     <div className="col-md-6 text-md-left text-center">
                         <p className="header-text-1 orange">Hi! It's me</p>
                         <p className="header-text-2">Dilshod Mahmudov</p>
@@ -30,7 +30,7 @@ function Header() {
                             </a>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-9">
                         <img src={headerImg} alt="" className="w-100"/>
                     </div>
                 </div>

@@ -110,7 +110,9 @@ nav{
         flex-direction: column;
         align-items: center;
         z-index: 1;
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 2px solid #ffffff;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
     .my-ul a{
         margin: 15px 0px;

@@ -14,19 +14,21 @@ function Nav() {
                         Dilshod<span>.</span>
                     </div>
                     <ul className={`my-ul ${ulShow ? "active" : null}`}>
-                        <a href="#">Home</a>
-                        <a href="#">About Me</a>
-                        <a href="#">Skills</a>
-                        <a href="#">Portfolio</a>
-                        <a href="#">Contact</a>
+                        <a href="#home">Home</a>
+                        <a href="#about">About Me</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contact">Contact</a>
                         <button className="hire-btn">
                             Hire me
                         </button>
                     </ul>
                     <lu className="menu-ul">
-                        <button className="hire-btn">
-                            Hire me
-                        </button>
+                        <a href="#contact">
+                            <button className="hire-btn">
+                                Hire me
+                            </button>
+                        </a>
                         <button className={`gamburger-btn ${ulShow ? "active" : null}`} onClick={showUl}>
                             <div className="line"></div>
                             <div className="line"></div>
