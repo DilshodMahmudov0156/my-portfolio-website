@@ -52,14 +52,12 @@ header{
     }
 }
 @media (max-width: 767px) {
+    header{
+        padding-top: 100px;
+    }
     .header-text-1{
         font-size: 22px;
     }
-    .header-text-2{
-        font-size: 45px;
-    }
-}
-@media (max-width: 767px) {
     .header-text-2{
         font-size: 40px;
     }

@@ -1,6 +1,7 @@
 import React from 'react';
 import headerImg from "../../images/header-img.png";
 import "./header.css";
+import {Typewriter} from "react-simple-typewriter";
 
 function Header() {
     return (
@@ -10,7 +11,20 @@ function Header() {
                     <div className="col-md-6 text-md-left text-center">
                         <p className="header-text-1 orange">Hi! It's me</p>
                         <p className="header-text-2">Dilshod Mahmudov</p>
-                        <p className="header-text-1">And I am a <span className="orange">Front-End developer</span></p>
+                        <p className="header-text-1">
+                            And I am a
+                            <span className="orange">
+                                <Typewriter
+                                    words={[" Front-End developer"]}
+                                    loop={2}
+                                    cursor
+                                    cursorStyle='_'
+                                    typeSpeed={120}
+                                    deleteSpeed={50}
+                                    delaySpeed={1000}
+                                />
+                            </span>
+                        </p>
                         <p className="header-paragraph">
                             I have been in <span className="orange">Programming</span> for two years!<br/>
                             And I love my job!
