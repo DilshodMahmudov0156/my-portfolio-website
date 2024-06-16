@@ -16,7 +16,7 @@ function Nav() {
                     <ul className={`my-ul ${ulShow ? "active" : null}`}>
                         <a href="#home">Home</a>
                         <a href="#about">About Me</a>
-                        <a href="#experience">Experience</a>
+                        <a href="#service">Service</a>
                         <a href="#portfolio">Portfolio</a>
                         <a href="#contact">Contact</a>
                         <button className="hire-btn">

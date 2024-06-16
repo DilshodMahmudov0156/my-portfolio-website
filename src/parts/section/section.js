@@ -39,85 +39,13 @@ function Section() {
                     </div>
                 </div>
             </div>
-            <div className="bg-my-few-dark ability-part" id="experience">
+            <div className="bg-my-few-dark ability-part" id="service">
                 <p className="section-heading">
-                    My <span className="orange">Experience</span>
+                    My <span className="orange">'Services'</span>
                 </p>
-                <div className="container mt-4">
+                <div className="container mt-5">
                     <div className="row">
                         <div className="col-12">
-                            <div className="border border-light my-4 py-3">
-                                <h4 className="text-light text-center">
-                                    I have an <span className="orange">'Experience'</span>
-                                </h4>
-                            </div>
-                            <table className="table table-bordered border-light text-light">
-                                <thead>
-                                <tr>
-                                    <th className="text-center">№</th>
-                                    <th>Knowledges</th>
-                                    <th className="text-center">Experience</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td className="text-center">1</td>
-                                    <td>Html</td>
-                                    <td className="text-success text-center">Yes <i
-                                        className="bi bi-check-circle-fill"></i></td>
-                                </tr>
-                                <tr>
-                                    <td className="text-center text-center">2</td>
-                                    <td>Css</td>
-                                    <td className="text-success text-center">Yes <i
-                                        className="bi bi-check-circle-fill"></i></td>
-                                </tr>
-                                <tr>
-                                    <td className="text-center">3</td>
-                                    <td>Java-script</td>
-                                    <td className="text-success text-center">Yes <i
-                                        className="bi bi-check-circle-fill"></i></td>
-                                </tr>
-                                <tr>
-                                    <td className="text-center">4</td>
-                                    <td>Bootstrap</td>
-                                    <td className="text-success text-center">Yes <i
-                                        className="bi bi-check-circle-fill"></i></td>
-                                </tr>
-                                <tr>
-                                    <td className="text-center">5</td>
-                                    <td>React-js</td>
-                                    <td className="text-success text-center">Yes <i
-                                        className="bi bi-check-circle-fill"></i></td>
-                                </tr>
-                                <tr>
-                                    <td className="text-center">6</td>
-                                    <td>Redux</td>
-                                    <td className="text-success text-center">Yes <i
-                                        className="bi bi-check-circle-fill"></i></td>
-                                </tr>
-                                <tr>
-                                    <td className="text-center">7</td>
-                                    <td>Type-Script</td>
-                                    <td className="text-success text-center">Yes <i
-                                        className="bi bi-check-circle-fill"></i></td>
-                                </tr>
-                                <tr>
-                                    <td className="text-center">8</td>
-                                    <td>Other libraries...</td>
-                                    <td className="text-success text-center">Yes <i
-                                        className="bi bi-check-circle-fill"></i></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <div className="col-12">
-                            <div className="mx-auto border border-light my-4 py-3 px-5">
-                                <h4 className="text-light text-center">
-                                    My <span className="orange">'Services'</span>
-                                </h4>
-                            </div>
                             <table className="table table-bordered border-light text-light">
                                 <thead>
                                 <tr>
@@ -223,29 +151,29 @@ function Section() {
                             </div>
 
                             <div className="borde border-ligh my-4 py-3 container-fluid px-4">
-                                <div className="row">
-                                    <div className="col-3 my-3">
+                                <div className="row justify-content-center">
+                                    <div className="col-md-2 col-3 my-3">
                                         <img src={img1} alt="" className="w-100"/>
                                     </div>
-                                    <div className="col-3 my-3">
+                                    <div className="col-md-2 col-3 my-3">
                                         <img src={img2} alt="" className="w-100"/>
                                     </div>
-                                    <div className="col-3 my-3">
+                                    <div className="col-md-2 col-3 my-3">
                                         <img src={img3} alt="" className="w-100"/>
                                     </div>
-                                    <div className="col-3 my-3">
+                                    <div className="col-md-2 col-3 my-3">
                                         <img src={img4} alt="" className="w-100"/>
                                     </div>
-                                    <div className="col-3 my-3">
+                                    <div className="col-md-2 col-3 my-3">
                                         <img src={img5} alt="" className="w-100 bg-light rounded-circle p-1"/>
                                     </div>
-                                    <div className="col-3 my-3">
+                                    <div className="col-md-2 col-3 my-3">
                                         <img src={img6} alt="" className="w-100"/>
                                     </div>
-                                    <div className="col-3 my-3">
+                                    <div className="col-md-2 col-3 my-3">
                                         <img src={img7} alt="" className="w-100"/>
                                     </div>
-                                    <div className="col-3 my-3">
+                                    <div className="col-md-2 col-3 my-3">
                                         <img src={img8} alt="" className="w-100"/>
                                     </div>
                                 </div>
