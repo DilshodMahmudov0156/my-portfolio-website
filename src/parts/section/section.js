@@ -45,7 +45,7 @@ function Section() {
                 </p>
                 <div className="container mt-4">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-12">
                             <div className="border border-light my-4 py-3">
                                 <h4 className="text-light text-center">
                                     I have an <span className="orange">'Experience'</span>
@@ -112,50 +112,12 @@ function Section() {
                             </table>
                         </div>
 
-                        <div className="col-md-6">
-                            <div className="border border-light my-4 py-3">
+                        <div className="col-12">
+                            <div className="mx-auto border border-light my-4 py-3 px-5">
                                 <h4 className="text-light text-center">
-                                    <span className="orange">'Programs'</span> I use
+                                    My <span className="orange">'Services'</span>
                                 </h4>
                             </div>
-
-                            <div className="border border-light my-4 py-3 container-fluid px-4">
-                                <div className="row">
-                                    <div className="col-3 my-3">
-                                        <img src={img1} alt="" className="w-100"/>
-                                    </div>
-                                    <div className="col-3 my-3">
-                                        <img src={img2} alt="" className="w-100"/>
-                                    </div>
-                                    <div className="col-3 my-3">
-                                        <img src={img3} alt="" className="w-100"/>
-                                    </div>
-                                    <div className="col-3 my-3">
-                                        <img src={img4} alt="" className="w-100"/>
-                                    </div>
-                                    <div className="col-3 my-3">
-                                        <img src={img5} alt="" className="w-100 bg-light rounded-circle p-1"/>
-                                    </div>
-                                    <div className="col-3 my-3">
-                                        <img src={img6} alt="" className="w-100"/>
-                                    </div>
-                                    <div className="col-3 my-3">
-                                        <img src={img7} alt="" className="w-100"/>
-                                    </div>
-                                    <div className="col-3 my-3">
-                                        <img src={img8} alt="" className="w-100"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="mx-auto border border-light my-5 py-3 px-5">
-                            <h4 className="text-light text-center">
-                                My <span className="orange">'Services'</span>
-                            </h4>
-                        </div>
-
-                        <div className="col-12">
                             <table className="table table-bordered border-light text-light">
                                 <thead>
                                 <tr>
@@ -251,6 +213,43 @@ function Section() {
                                 </tr>
                                 </tbody>
                             </table>
+                        </div>
+
+                        <div className="col-12">
+                            <div className="border border-light my-4 py-3">
+                                <h4 className="text-light text-center">
+                                    <span className="orange">'Programs'</span> I use
+                                </h4>
+                            </div>
+
+                            <div className="borde border-ligh my-4 py-3 container-fluid px-4">
+                                <div className="row">
+                                    <div className="col-3 my-3">
+                                        <img src={img1} alt="" className="w-100"/>
+                                    </div>
+                                    <div className="col-3 my-3">
+                                        <img src={img2} alt="" className="w-100"/>
+                                    </div>
+                                    <div className="col-3 my-3">
+                                        <img src={img3} alt="" className="w-100"/>
+                                    </div>
+                                    <div className="col-3 my-3">
+                                        <img src={img4} alt="" className="w-100"/>
+                                    </div>
+                                    <div className="col-3 my-3">
+                                        <img src={img5} alt="" className="w-100 bg-light rounded-circle p-1"/>
+                                    </div>
+                                    <div className="col-3 my-3">
+                                        <img src={img6} alt="" className="w-100"/>
+                                    </div>
+                                    <div className="col-3 my-3">
+                                        <img src={img7} alt="" className="w-100"/>
+                                    </div>
+                                    <div className="col-3 my-3">
+                                        <img src={img8} alt="" className="w-100"/>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
