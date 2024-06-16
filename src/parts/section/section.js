@@ -144,36 +144,39 @@ function Section() {
                         </div>
 
                         <div className="col-12">
-                            <div className="border border-light my-4 py-3">
-                                <h4 className="text-light text-center">
-                                    <span className="orange">'Programs'</span> I use
-                                </h4>
-                            </div>
+                            <p className="text-light text-center my-5 section-heading">
+                                <span className="orange">'Programs'</span> I use
+                            </p>
+                            {/*<div className="border border-light my-5 py-3">*/}
+                            {/*    <h4 className="text-light text-center">*/}
+                            {/*        <span className="orange">'Programs'</span> I use*/}
+                            {/*    </h4>*/}
+                            {/*</div>*/}
 
                             <div className="borde border-ligh my-4 py-3 container-fluid px-4">
                                 <div className="row justify-content-center">
-                                    <div className="col-md-2 col-3 my-3">
+                                    <div className="col-md-2 col-4 my-3">
                                         <img src={img1} alt="" className="w-100"/>
                                     </div>
-                                    <div className="col-md-2 col-3 my-3">
+                                    <div className="col-md-2 col-4 my-3">
                                         <img src={img2} alt="" className="w-100"/>
                                     </div>
-                                    <div className="col-md-2 col-3 my-3">
+                                    <div className="col-md-2 col-4 my-3">
                                         <img src={img3} alt="" className="w-100"/>
                                     </div>
-                                    <div className="col-md-2 col-3 my-3">
+                                    <div className="col-md-2 col-4 my-3">
                                         <img src={img4} alt="" className="w-100"/>
                                     </div>
-                                    <div className="col-md-2 col-3 my-3">
+                                    <div className="col-md-2 col-4 my-3">
                                         <img src={img5} alt="" className="w-100 bg-light rounded-circle p-1"/>
                                     </div>
-                                    <div className="col-md-2 col-3 my-3">
+                                    <div className="col-md-2 col-4 my-3">
                                         <img src={img6} alt="" className="w-100"/>
                                     </div>
-                                    <div className="col-md-2 col-3 my-3">
+                                    <div className="col-md-2 col-4 my-3">
                                         <img src={img7} alt="" className="w-100"/>
                                     </div>
-                                    <div className="col-md-2 col-3 my-3">
+                                    <div className="col-md-2 col-4 my-3">
                                         <img src={img8} alt="" className="w-100"/>
                                     </div>
                                 </div>
