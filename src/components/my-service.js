@@ -7,8 +7,8 @@ function MyService(props) {
                 My <span className="orange">'Services'</span>
             </p>
             <div className="container mt-5">
-                <div className="row">
-                    <div className="col-12">
+                <div className="row justify-content-center">
+                    <div className="col-12 col-md-8 col-xl-6">
                         <table className="table table-bordered border-light text-light">
                             <thead>
                             <tr>

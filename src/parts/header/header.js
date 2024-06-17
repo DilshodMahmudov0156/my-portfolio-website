@@ -15,10 +15,10 @@ function Header() {
                             And I am a
                             <span className="orange">
                                 <Typewriter
-                                    words={[" Front-End developer"]}
-                                    loop={2}
+                                    words={[" React-Js developer"," Front-End developer"]}
+                                    loop={0}
                                     cursor
-                                    cursorStyle='_'
+                                    cursorStyle='|'
                                     typeSpeed={120}
                                     deleteSpeed={50}
                                     delaySpeed={1000}

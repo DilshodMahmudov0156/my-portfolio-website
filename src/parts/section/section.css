@@ -16,29 +16,30 @@
     color: #ffffff;
     font-size: 32px;
     margin: 30px 0px;
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.knowledge-btn{
+    border: 1px solid #ffffff;
+    padding: 6px 20px;
+    background-color: #31065A;
+    color: #ffffff;
+    border-radius: 25px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.knowledge-btn:focus{
+    outline: none;
 }
 .my-information{
     color: #ffffff;
+    margin-top: -10px;
 }
 .contact-btn-out{
     display: inline-block;
     margin-top: 20px;
     text-decoration: none;
-}
-.contact-btn{
-    width: 150px;
-    height: 40px;
-    font-size: 17px;
-    font-weight: 600;
-    color: #461959;
-    background-color: #ffffff;
-    border-radius: 20px;
-    border: none;
-    transition: 0.2s;
-}
-.read-more-btn:hover{
-    background-color: #F86F03;
-    color: #ffffff;
 }
 .ability-part{
     padding: 45px 0px;
