@@ -29,6 +29,9 @@
     margin-top: 10px;
     margin-right: 10px;
 }
+.knowledge-btn:hover{
+    cursor: default;
+}
 .knowledge-btn:focus{
     outline: none;
 }

@@ -1,6 +1,5 @@
 import React from 'react';
-
-function MyService(props) {
+function MyService() {
     return (
         <div className="bg-my-few-dark ability-part" id="service">
             <p className="section-heading">
@@ -8,8 +7,8 @@ function MyService(props) {
             </p>
             <div className="container mt-5">
                 <div className="row justify-content-center">
-                    <div className="col-12 col-md-8 col-xl-6">
-                        <table className="table table-bordered border-light text-light">
+                    <div className="col-md-8 mt-4">
+                        <table className="table table-bordered text-light bg-my-dark">
                             <thead>
                             <tr>
                                 <th className="text-center">№</th>
@@ -63,41 +62,6 @@ function MyService(props) {
                             </tbody>
                         </table>
                     </div>
-
-                    {/*<div className="col-12">*/}
-                    {/*    <p className="text-light text-center my-5 section-heading">*/}
-                    {/*        <span className="orange">'Programs'</span> I use*/}
-                    {/*    </p>*/}
-
-                    {/*    <div className="borde border-ligh my-4 py-3 container-fluid px-4">*/}
-                    {/*        <div className="row justify-content-center">*/}
-                    {/*            <div className="col-md-2 col-4 my-3">*/}
-                    {/*                <img src={img1} alt="" className="w-100"/>*/}
-                    {/*            </div>*/}
-                    {/*            <div className="col-md-2 col-4 my-3">*/}
-                    {/*                <img src={img2} alt="" className="w-100"/>*/}
-                    {/*            </div>*/}
-                    {/*            <div className="col-md-2 col-4 my-3">*/}
-                    {/*                <img src={img3} alt="" className="w-100"/>*/}
-                    {/*            </div>*/}
-                    {/*            <div className="col-md-2 col-4 my-3">*/}
-                    {/*                <img src={img4} alt="" className="w-100"/>*/}
-                    {/*            </div>*/}
-                    {/*            <div className="col-md-2 col-4 my-3">*/}
-                    {/*                <img src={img5} alt="" className="w-100 bg-light rounded-circle p-1"/>*/}
-                    {/*            </div>*/}
-                    {/*            <div className="col-md-2 col-4 my-3">*/}
-                    {/*                <img src={img6} alt="" className="w-100"/>*/}
-                    {/*            </div>*/}
-                    {/*            <div className="col-md-2 col-4 my-3">*/}
-                    {/*                <img src={img7} alt="" className="w-100"/>*/}
-                    {/*            </div>*/}
-                    {/*            <div className="col-md-2 col-4 my-3">*/}
-                    {/*                <img src={img8} alt="" className="w-100"/>*/}
-                    {/*            </div>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
                 </div>
             </div>
 

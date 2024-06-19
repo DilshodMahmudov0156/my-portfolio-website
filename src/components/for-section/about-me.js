@@ -1,5 +1,5 @@
 import React from 'react';
-import myPhoto from "../my-photo/my-photo.jpg";
+import myPhoto from "../../my-photo/my-photo.jpg";
 
 function AboutMe() {
     return (
@@ -13,7 +13,7 @@ function AboutMe() {
                         <img src={myPhoto} alt="" className="w-100 my-photo"/>
                     </div>
                     <div className="col-md-8 col-lg-7">
-                        <p className="my-heading text-center border-top border-light">Front-End Developer</p>
+                        <p className="my-heading text-center border-top border-light text-warning">Front-End Developer</p>
                         <p className="my-information">
                             I was born in <span className="orange">21/08/2003</span> and I am from Uzbekistan. My native
                             language is 'Uzbek', but I learned 'English' and I am
@@ -22,10 +22,10 @@ function AboutMe() {
                             problem in the module. I love working on myself and I can not live without it.
                         </p>
                         <div className="border-top border-light"></div>
-                        <h3 className="text-center text-light my-4">
+                        <h3 className="text-center my-4 text-warning">
                             My Knowledges
                         </h3>
-                        <div className="d-flex flex-wrap justify-content-center justify-content-sm-start">
+                        <div className="d-flex flex-wrap justify-content-center justify-content-md-start">
                             <button className="knowledge-btn">
                                 <i className="bi bi-filetype-html"></i> Html
                             </button>
