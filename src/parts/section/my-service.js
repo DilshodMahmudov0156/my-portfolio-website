@@ -25,36 +25,48 @@ function MyService() {
                             </tr>
                             <tr>
                                 <td className="text-center">2</td>
-                                <td>Making responsive-page</td>
+                                <td>CMS</td>
                                 <td className="text-success text-center">Yes <i
                                     className="bi bi-check-circle-fill"></i></td>
                             </tr>
                             <tr>
                                 <td className="text-center">3</td>
-                                <td>Making Fast Page</td>
+                                <td>Ecommerce</td>
                                 <td className="text-success text-center">Yes <i
                                     className="bi bi-check-circle-fill"></i></td>
                             </tr>
                             <tr>
                                 <td className="text-center">4</td>
-                                <td>API-Integration</td>
+                                <td>Making responsive-page</td>
                                 <td className="text-success text-center">Yes <i
                                     className="bi bi-check-circle-fill"></i></td>
                             </tr>
                             <tr>
                                 <td className="text-center">5</td>
-                                <td>Authorization</td>
+                                <td>Making Fast Page</td>
                                 <td className="text-success text-center">Yes <i
                                     className="bi bi-check-circle-fill"></i></td>
                             </tr>
                             <tr>
                                 <td className="text-center">6</td>
-                                <td>Login</td>
+                                <td>API-Integration</td>
                                 <td className="text-success text-center">Yes <i
                                     className="bi bi-check-circle-fill"></i></td>
                             </tr>
                             <tr>
                                 <td className="text-center">7</td>
+                                <td>Authorization</td>
+                                <td className="text-success text-center">Yes <i
+                                    className="bi bi-check-circle-fill"></i></td>
+                            </tr>
+                            <tr>
+                                <td className="text-center">8</td>
+                                <td>Login</td>
+                                <td className="text-success text-center">Yes <i
+                                    className="bi bi-check-circle-fill"></i></td>
+                            </tr>
+                            <tr>
+                                <td className="text-center">9</td>
                                 <td>Private-Page</td>
                                 <td className="text-success text-center">Yes <i
                                     className="bi bi-check-circle-fill"></i></td>

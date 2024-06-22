@@ -1,5 +1,7 @@
 import React from 'react';
 import myPhoto from "../../images/my-photo.jpg";
+import firebaseIcon from "../../images/firebase icon.png";
+import canvaIcon from "../../images/canva icon.png";
 
 function AboutMe() {
     return (
@@ -10,7 +12,10 @@ function AboutMe() {
                 </p>
                 <div className="row justify-content-between mt-4">
                     <div className="col-md-4">
-                        <img src={myPhoto} alt="" className="w-100 my-photo"/>
+                        <div className="my-image">
+                            <img src={myPhoto} alt="" className="w-100 my-photo"/>
+                            <div className="window"></div>
+                        </div>
                     </div>
                     <div className="col-md-8 col-lg-7">
                         <p className="my-heading text-center border-top border-light text-warning">Front-End Developer</p>
@@ -39,10 +44,19 @@ function AboutMe() {
                                 <i className="bi bi-filetype-js"></i> Java-Script
                             </button>
                             <button className="knowledge-btn">
+                                <i className="bi bi-globe"></i> API
+                            </button>
+                            <button className="knowledge-btn">
                                 <i className="bi bi-filetype-json"></i> JSON
                             </button>
                             <button className="knowledge-btn">
                                 <i className="bi bi-terminal"></i> npm
+                            </button>
+                            <button className="knowledge-btn">
+                                <i className="bi bi-box-fill"></i> webpack
+                            </button>
+                            <button className="knowledge-btn">
+                                Babel js
                             </button>
                             <button className="knowledge-btn">
                                 <i className="bi bi-hdd-network"></i> Json-Server
@@ -61,6 +75,15 @@ function AboutMe() {
                             </button>
                             <button className="knowledge-btn">
                                 <i className="bi bi-github"></i> GitHub
+                            </button>
+                            <button className="knowledge-btn">
+                                <img src={firebaseIcon} alt="" className="my-icon"/> Firebase
+                            </button>
+                            <button className="knowledge-btn">
+                                <i className="bi bi-globe"></i> Netlify App
+                            </button>
+                            <button className="knowledge-btn">
+                                <img src={canvaIcon} alt="" className="my-canva-icon"/>
                             </button>
                         </div>
                     </div>

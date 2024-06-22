@@ -1,5 +1,5 @@
 import './App.css';
-import Nav from "./components/for-header/nav";
+import Nav from "./parts/header/nav";
 import Header from "./parts/header/header";
 import Section from "./parts/section/section";
 
