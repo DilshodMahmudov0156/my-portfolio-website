@@ -1,4 +1,5 @@
 import React from 'react';
+import "./about-me.css";
 import myPhoto from "../../images/my-photo.jpg";
 import firebaseIcon from "../../images/firebase icon.png";
 import canvaIcon from "../../images/canva icon.png";

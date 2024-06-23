@@ -1,6 +1,7 @@
 import "./section.css";
 import AboutMe from "./about-me";
 import MyService from "./my-service";
+import Projects from "./projects";
 
 
 function Section() {
@@ -8,6 +9,7 @@ function Section() {
         <section>
             <AboutMe/>
             <MyService/>
+            <Projects/>
         </section>
     );
 }
