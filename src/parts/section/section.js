@@ -1,7 +1,7 @@
 import "./section.css";
-import AboutMe from "./about-me";
-import MyService from "./my-service";
-import Projects from "./projects";
+import AboutMe from "./about-me/about-me";
+import MyService from "./my-service/my-service";
+import Projects from "./projects/projects";
 
 
 function Section() {

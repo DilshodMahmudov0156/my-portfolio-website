@@ -3,7 +3,7 @@ function MyService() {
     return (
         <div className="bg-my-few-dark ability-part" id="service">
             <p className="section-heading">
-                My <span className="orange">'Services'</span>
+                My <span className="orange">Services</span>
             </p>
             <div className="container mt-5">
                 <div className="row justify-content-center">

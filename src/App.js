@@ -5,7 +5,7 @@ import Section from "./parts/section/section";
 
 function App() {
 
-    return(
+    return (
         <div className="app">
             <Nav/>
             <Header/>

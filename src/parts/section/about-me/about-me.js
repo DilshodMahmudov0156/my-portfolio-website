@@ -1,8 +1,9 @@
 import React from 'react';
 import "./about-me.css";
-import myPhoto from "../../images/my-photo.jpg";
-import firebaseIcon from "../../images/firebase icon.png";
-import canvaIcon from "../../images/canva icon.png";
+import myPhoto from "../../../images/my-photo.jpg";
+import firebaseIcon from "../../../images/firebase icon.png";
+import canvaIcon from "../../../images/canva icon.png";
+import vite from "../../../images/vite.svg";
 
 function AboutMe() {
     return (
@@ -45,7 +46,7 @@ function AboutMe() {
                                 <i className="bi bi-filetype-js"></i> Java-Script
                             </button>
                             <button className="knowledge-btn">
-                                <i className="bi bi-globe"></i> API
+                                <i className="bi bi-globe"></i> Rest API
                             </button>
                             <button className="knowledge-btn">
                                 <i className="bi bi-filetype-json"></i> JSON
@@ -55,6 +56,9 @@ function AboutMe() {
                             </button>
                             <button className="knowledge-btn">
                                 <i className="bi bi-box-fill"></i> webpack
+                            </button>
+                            <button className="knowledge-btn">
+                                <img src={vite} alt="" className="vite-icon"/> Vite js
                             </button>
                             <button className="knowledge-btn">
                                 Babel js
