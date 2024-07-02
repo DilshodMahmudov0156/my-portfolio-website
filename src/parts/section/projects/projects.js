@@ -1,8 +1,8 @@
 import React from 'react';
 import "./projects.css";
-import responsivePage from "../../../images/responsive.png";
-import slider from "../../../images/slider.png";
-import tab from "../../../images/tab.png";
+import contactRedux from "../../../images/contact-redux.png";
+import ecommerce from "../../../images/ecommerce.png";
+import crud from "../../../images/crud.png";
 
 function Projects() {
     return (
@@ -15,10 +15,10 @@ function Projects() {
                     <div className="col-lg-4 col-md-6">
                         <div className="project-card">
                             <div className="project-img-container">
-                                <img src={responsivePage} alt="" className="w-100"/>
+                                <img src={contactRedux} alt="" className="w-100"/>
                                 <div className="project-window">
                                     <div className="links">
-                                        <a href="https://vocal-jelly-b7ad97.netlify.app/" target="_blank">
+                                        <a href="https://voluble-starburst-1332db.netlify.app/" target="_blank">
                                         <span className="window-icon">
                                             <i className="bi bi-box-arrow-up-right"></i>
                                         </span>
@@ -28,13 +28,13 @@ function Projects() {
                                 </div>
                             </div>
                             <div className="d-flex justify-content-between card-text">
-                                <p className="card-title">Responsive-Page</p>
+                                <p className="card-title">Contact App</p>
                                 <div className="d-flex">
                                     <button className="card-icon">
-                                        <i className="fa-brands fa-html5"></i>
+                                        <i className="fa-brands fa-react"></i>
                                     </button>
-                                    <button className="card-icon">
-                                        <i className="fa-brands fa-css3-alt"></i>
+                                    <button class="card-icon">
+                                        <i class="fa-solid fa-diagram-project"></i>
                                     </button>
                                 </div>
                             </div>
@@ -44,10 +44,10 @@ function Projects() {
                     <div className="col-lg-4 col-md-6">
                         <div className="project-card">
                             <div className="project-img-container">
-                                <img src={slider} alt="" className="w-100"/>
+                                <img src={ecommerce} alt="" className="w-100"/>
                                 <div className="project-window">
                                     <div className="links">
-                                        <a href="https://stupendous-phoenix-2b0966.netlify.app/" target="_blank">
+                                        <a href="https://tangerine-selkie-4f0c7c.netlify.app/" target="_blank">
                                         <span className="window-icon">
                                             <i className="bi bi-box-arrow-up-right"></i>
                                         </span>
@@ -57,16 +57,10 @@ function Projects() {
                                 </div>
                             </div>
                             <div className="d-flex justify-content-between card-text">
-                                <p className="card-title">Slider</p>
+                                <p className="card-title">Ecommerce</p>
                                 <div className="d-flex">
                                     <button className="card-icon">
-                                        <i className="fa-brands fa-html5"></i>
-                                    </button>
-                                    <button className="card-icon">
-                                        <i className="fa-brands fa-css3-alt"></i>
-                                    </button>
-                                    <button className="card-icon">
-                                        <i className="fa-brands fa-square-js"></i>
+                                        <i className="fa-brands fa-react"></i>
                                     </button>
                                 </div>
                             </div>
@@ -76,10 +70,10 @@ function Projects() {
                     <div className="col-lg-4 col-md-6">
                     <div className="project-card">
                             <div className="project-img-container">
-                                <img src={tab} alt="" className="w-100"/>
+                                <img src={crud} alt="" className="w-100"/>
                                 <div className="project-window">
                                     <div className="links">
-                                        <a href="https://silver-starburst-99a10b.netlify.app/" target="_blank">
+                                        <a href="https://imaginative-starship-3120ae.netlify.app/" target="_blank">
                                         <span className="window-icon">
                                             <i className="bi bi-box-arrow-up-right"></i>
                                         </span>
@@ -90,16 +84,13 @@ function Projects() {
                             </div>
 
                             <div className="d-flex justify-content-between card-text">
-                                <p className="card-title">Tab-Content</p>
+                                <p className="card-title">CRUD with Firebase</p>
                                 <div className="d-flex">
                                     <button className="card-icon">
-                                        <i className="fa-brands fa-html5"></i>
+                                        <i className="fa-brands fa-react"></i>
                                     </button>
-                                    <button className="card-icon">
-                                        <i className="fa-brands fa-css3-alt"></i>
-                                    </button>
-                                    <button className="card-icon">
-                                        <i className="fa-brands fa-square-js"></i>
+                                    <button class="card-icon">
+                                        <i class="fa-solid fa-fire"></i>
                                     </button>
                                 </div>
                             </div>
@@ -108,7 +99,7 @@ function Projects() {
 
                 </div>
                 <button className="knowledge-btn d-block mx-auto mt-5">
-                        More <i className="bi bi-box-arrow-in-right"></i>
+                        See More <i className="bi bi-box-arrow-in-right"></i>
                 </button>
             </div>
         </div>

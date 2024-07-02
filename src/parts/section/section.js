@@ -10,6 +10,7 @@ function Section() {
             <AboutMe/>
             <MyService/>
             <Projects/>
+            <div className="bg-my-few-dark py-1"></div>
         </section>
     );
 }

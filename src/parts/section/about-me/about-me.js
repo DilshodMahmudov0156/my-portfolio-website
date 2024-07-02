@@ -26,7 +26,11 @@ function AboutMe() {
                             language is 'Uzbek', but I learned 'English' and I am
                             interested in 'Coding'. So, I like finding out problems that exist in the Module. I feel
                             myself as <span className="orange">expert programmer</span> when I find solution for the
-                            problem in the module. I love working on myself and I can not live without it.
+                            problem in the module. I love working on myself. I can not live without my job. I love making
+                            functional projects! <span className="orange">My Goal</span> is being one of
+                            <span className="orange"> The Best Coders</span> in the world and
+                            I am doing my best to reach
+                            <span className="orange"> My Goal</span>
                         </p>
                         <div className="border-top border-light"></div>
                         <h3 className="text-center my-4 text-warning">

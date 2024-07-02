@@ -1,0 +1,27 @@
+footer{
+    /*margin-top: -21px;*/
+    box-sizing: border-box;
+    padding: 20px 0px 50px 0px;
+}
+
+.footer-a{
+    display: block;
+    padding: 5px 11px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 22px;
+    border-radius: 23px;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+.footer-a:hover{
+    background-color: #ffffff;
+    color: #31065A;
+}
+.footer-link{
+    color: #ffffff;
+    transition: 0.2s;
+}
+.footer-link:hover{
+    color: #ffffff;
+}

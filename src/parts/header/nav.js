@@ -18,13 +18,13 @@ function Nav() {
                         <a href="#about">About Me</a>
                         <a href="#service">Service</a>
                         <a href="#projects">Projects</a>
-                        <a href="#contact">Contact</a>
+                        <a href="#hire-me">Contact</a>
                         <button className="hire-btn">
                             Hire me
                         </button>
                     </ul>
                     <lu className="menu-ul">
-                        <a href="#contact">
+                        <a href="#hire-me">
                             <button className="hire-btn">
                                 Hire me
                             </button>

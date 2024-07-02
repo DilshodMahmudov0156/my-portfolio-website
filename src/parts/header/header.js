@@ -2,6 +2,7 @@ import React from 'react';
 import headerImg from "../../images/header-img.png";
 import "./header.css";
 import {Typewriter} from "react-simple-typewriter";
+import myCV from "../../my-cv/Dilshod Mahmudov cv.pdf";
 
 function Header() {
     return (
@@ -33,8 +34,9 @@ function Header() {
                             <a href="https://github.com/DilshodMahmudov0156" target="_blank">
                                 <i className="bi bi-github"></i>
                             </a>
-                            <a href="" target="_blank">
-                                <i className="bi bi-linkedin"></i>
+                            <a href={myCV} target="_blank">
+                                CV
+                                {/*<i className="bi bi-linkedin"></i>*/}
                             </a>
                             <a href="tel:+998915650156">
                                 <i className="bi bi-telephone-fill"></i>
