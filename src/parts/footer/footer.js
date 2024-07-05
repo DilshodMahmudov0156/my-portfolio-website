@@ -2,7 +2,7 @@ import React from 'react';
 import myCV from "../../my-cv/Dilshod Mahmudov cv.pdf";
 import "./footer.css";
 
-function Footer(props) {
+function Footer() {
     return (
         <footer className="bg-my-dark" id="hire-me">
                 <h2 className="section-heading">

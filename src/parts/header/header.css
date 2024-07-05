@@ -38,6 +38,7 @@ header{
 .my-contact a:hover{
     background-color: #ffffff;
     color: #31065A;
+    text-decoration: none;
 }
 
 @media (max-width: 991px) {

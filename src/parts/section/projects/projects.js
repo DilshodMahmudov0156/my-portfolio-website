@@ -2,7 +2,7 @@ import React from 'react';
 import "./projects.css";
 import contactRedux from "../../../images/contact-redux.png";
 import ecommerce from "../../../images/ecommerce.png";
-import crud from "../../../images/crud.png";
+import toDoList from "../../../images/to-do-list.png";
 
 function Projects() {
     return (
@@ -70,10 +70,10 @@ function Projects() {
                     <div className="col-lg-4 col-md-6">
                     <div className="project-card">
                             <div className="project-img-container">
-                                <img src={crud} alt="" className="w-100"/>
+                                <img src={toDoList} alt="" className="w-100"/>
                                 <div className="project-window">
                                     <div className="links">
-                                        <a href="https://imaginative-starship-3120ae.netlify.app/" target="_blank">
+                                        <a href="https://vermillion-beignet-819295.netlify.app/" target="_blank">
                                         <span className="window-icon">
                                             <i className="bi bi-box-arrow-up-right"></i>
                                         </span>
@@ -84,13 +84,10 @@ function Projects() {
                             </div>
 
                             <div className="d-flex justify-content-between card-text">
-                                <p className="card-title">CRUD with Firebase</p>
+                                <p className="card-title">To-Do-List</p>
                                 <div className="d-flex">
                                     <button className="card-icon">
                                         <i className="fa-brands fa-react"></i>
-                                    </button>
-                                    <button class="card-icon">
-                                        <i class="fa-solid fa-fire"></i>
                                     </button>
                                 </div>
                             </div>
@@ -98,9 +95,11 @@ function Projects() {
                     </div>
 
                 </div>
-                <button className="knowledge-btn d-block mx-auto mt-5">
+                <div className="text-center">
+                    <a href="https://splendorous-jelly-673122.netlify.app/" target="_blank" className="knowledge-btn more-btn">
                         See More <i className="bi bi-box-arrow-in-right"></i>
-                </button>
+                    </a>
+                </div>
             </div>
         </div>
     );

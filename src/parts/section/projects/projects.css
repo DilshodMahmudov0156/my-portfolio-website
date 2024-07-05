@@ -69,3 +69,20 @@
 .card-text{
     margin: 0px 10px;
 }
+.more-btn{
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 6px 20px;
+    background-color: #31065A;
+    color: #ffffff;
+    border-radius: 25px;
+    font-size: 22px;
+    margin-top: 50px;
+    transition: 0.2s;
+}
+.more-btn:hover{
+    color: #31065A;
+    border-color: #31065A;
+    background-color: #ffffff;
+    text-decoration: none;
+}

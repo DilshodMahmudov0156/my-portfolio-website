@@ -11,7 +11,7 @@ function Nav() {
             <div className="container">
                 <div className="row justify-content-between align-items-center nav-row">
                     <div className="logo">
-                        Dilshod<span>.</span>
+                        Dilshod<span>WEB</span>
                     </div>
                     <ul className={`my-ul ${ulShow ? "active" : null}`}>
                         <a href="#home">Home</a>

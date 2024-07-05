@@ -17,6 +17,7 @@ footer{
 .footer-a:hover{
     background-color: #ffffff;
     color: #31065A;
+    text-decoration: none;
 }
 .footer-link{
     color: #ffffff;
